@@ -2,6 +2,7 @@
 pragma solidity ^0.5.1.;
 
 
+
 //create a contract MessageContract
 
 contract MessageContract {
@@ -12,12 +13,12 @@ contract MessageContract {
     //define variable, data type string, set to the string "Hello World"
     
     string private message = "Hello Fam";
-    //getter, gets the value of      
+    //getter gets and returns specified value     
     function getmessage() public view returns (string memory){
         return message;
     }
     
-    //function that resets value of variage message
+    //function that resets value of thee variable message 
     function setMessage (string memory _newMessage) public {
         //set message variable to variable _newMessage
         message = _newMessage;

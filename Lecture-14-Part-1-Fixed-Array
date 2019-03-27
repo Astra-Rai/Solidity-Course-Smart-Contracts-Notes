@@ -1,0 +1,16 @@
+pragma solidity^0.5.1;
+
+contract SampleContract {
+    //array with three items, array is fixed
+    
+    uint8[3] nums = [10,20,30];
+    
+    //getter function will get value of elements in array
+    function getNums() public returns (uint8[3] memory) {
+        return nums;
+    }
+    //getter function returns number of elements in num array
+    function getLength() view public returns(uint) {
+        return nums.length;//uint256: 3
+    }
+}

@@ -1,0 +1,22 @@
+
+
+pragma solidity 0.5.1;
+/*
+Steps to Deploy Smart Contract to Rinkeby Testnet:
+
+-To deploy tokens to Rinkeby testnet, go to metamase account
+-select Rinkeby test network
+-you should already have virtual ether in your account, if not read article below:
+-article: https://www.linkedin.com/pulse/create-your-own-erc20-token-part-1-astra-rai-daniels/
+-got to remix IDE,complile contract
+-make sure code is error reference
+-Run tab, select injected Web3 environment-Rinkeby
+-select account you wish to use for deployment
+-account selected in remix IDE address inbox dropdown should be same as account selected in Metamask
+-specify initial supply when you deploy contract, 
+-Deploy, input field 10000
+-metamask pops up and request confirmation for transaction
+-click confirm and wait for transaction to be validated
+-if deployment is successful, look at metamask account
+-select account used, there is select arrow that reads "view on etherscan"
+*/
